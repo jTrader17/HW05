@@ -1,0 +1,29 @@
+﻿Build started 6/14/2014 3:28:00 PM.
+     1>Project "C:\Users\Jason\Documents\CSII\HW05_12.8\HW05_12.8\HW05_12.8.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt VectorClass.cpp
+         VectorClass.cpp
+     1>c:\users\jason\documents\csii\hw05_12.8\hw05_12.8\vectorclass.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\jason\documents\csii\hw05_12.8\hw05_12.8\vectorclass.cpp(31) : while compiling class template member function 'void Vector<T>::push_back(T)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\jason\documents\csii\hw05_12.8\hw05_12.8\vectorclass.cpp(75) : see reference to function template instantiation 'void Vector<T>::push_back(T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\jason\documents\csii\hw05_12.8\hw05_12.8\vectorclass.cpp(74) : see reference to class template instantiation 'Vector<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jason\Documents\CSII\HW05_12.8\Debug\HW05_12.8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jason\Documents\CSII\HW05_12.8\Debug\HW05_12.8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jason\Documents\CSII\HW05_12.8\Debug\HW05_12.8.lib" /MACHINE:X86 Debug\VectorClass.obj
+         HW05_12.8.vcxproj -> C:\Users\Jason\Documents\CSII\HW05_12.8\Debug\HW05_12.8.exe
+     1>Done Building Project "C:\Users\Jason\Documents\CSII\HW05_12.8\HW05_12.8\HW05_12.8.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24
